@@ -1,0 +1,13 @@
+[2025-10-01 02:23:24] CRITICAL: (1044) SQLSTATE[HY000] [1044] Access denied for user 'espocrm_owner_thiago'@'localhost' to database 'espocrm_thiago' :: GET /Settings :: C:\xampp\htdocs\espocrm\application\Espo\ORM\PDO\MysqlPDOFactory.php(73)
+[2025-10-01 02:27:15] CRITICAL: (1044) SQLSTATE[HY000] [1044] Access denied for user 'espocrm_owner_thiago'@'localhost' to database 'espocrm_thiago' :: GET /Settings :: C:\xampp\htdocs\espocrm\application\Espo\ORM\PDO\MysqlPDOFactory.php(73)
+[2025-10-01 02:27:28] CRITICAL: (1044) SQLSTATE[HY000] [1044] Access denied for user 'espocrm_owner_thiago'@'localhost' to database 'espocrm_thiago' :: GET /Settings :: C:\xampp\htdocs\espocrm\application\Espo\ORM\PDO\MysqlPDOFactory.php(73)
+[2025-10-01 02:42:05] CRITICAL: (1045) SQLSTATE[HY000] [1045] Access denied for user 'espocrm_owner_thiago'@'localhost' (using password: YES) :: GET /Settings :: C:\xampp\htdocs\espocrm\application\Espo\ORM\PDO\MysqlPDOFactory.php(73)
+[2025-10-01 07:35:29] WARNING: E_WARNING: rename(data\tmp\tmp7BAF.tmp,data/cache/application/routes.php): Access is denied (code: 5)
+[2025-10-01 07:35:30] WARNING: E_WARNING: rename(data\tmp\tmp7E14.tmp,data/cache/application/ormMetadata.php): Access is denied (code: 5)
+[2025-10-01 07:42:39] WARNING: E_WARNING: rename(data\tmp\tmpB7C.tmp,data/cache/application/classmapEntities.php): Access is denied (code: 5)
+[2025-10-01 07:42:39] WARNING: E_WARNING: rename(data\tmp\tmpC78.tmp,data/cache/application/classmapControllers.php): Access is denied (code: 5)
+[2025-10-01 07:42:51] ERROR: ZaloOA: Could not get user ID for phone: 0369710001
+[2025-10-01 07:42:51] WARNING: ZaloOA: Failed to send notification to 0369710001
+[2025-10-01 12:27:38] WARNING: E_WARNING: rename(data\tmp\tmpF3F3.tmp,data/cache/application/entityAcl.php): Access is denied (code: 5)
+[2025-10-01 12:27:38] WARNING: E_WARNING: rename(data\tmp\tmpF3F3.tmp,data/cache/application/entityAcl.php): Access is denied (code: 5)
+[2025-10-01 12:33:28] ERROR: ZaloOA: Failed to send message

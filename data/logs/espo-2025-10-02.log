@@ -1,0 +1,10 @@
+[2025-10-02 01:38:43] WARNING: E_WARNING: mkdir(): File exists
+
+
+
+[2025-10-02 02:37:52] ERROR: ZaloOA: Failed to send message
+[2025-10-02 02:37:52] ERROR: ZaloOA: Failed to send message
+[2025-10-02 02:39:59] ERROR: ZaloOA: Failed to send message
+[2025-10-02 02:41:38] ERROR: ZaloOA: Failed to send message
+[2025-10-02 03:32:10] WARNING: E_WARNING: file_put_contents(data/cache/application/slim-routes.php): Failed to open stream: No such file or directory
+[2025-10-02 03:32:10] WARNING: E_WARNING: file_put_contents(data/cache/application/slim-routes.php): Failed to open stream: No such file or directory

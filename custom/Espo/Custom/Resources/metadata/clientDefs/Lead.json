@@ -1,0 +1,8 @@
+{
+    "viewSetupHandlers": {
+        "list": [
+            "custom:handlers/lead/list-import-button"
+        ]
+    }
+}
+

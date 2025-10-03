@@ -1,0 +1,8 @@
+{
+  "afterSave": [
+    {
+      "className": "Espo\\Custom\\Hooks\\Lead\\ZaloNotification",
+      "order": 10
+    }
+  ]
+}
