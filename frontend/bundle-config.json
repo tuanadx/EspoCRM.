@@ -1,0 +1,151 @@
+{
+    "order": [
+        "main",
+        "admin",
+        "extra",
+        "crm",
+        "chart",
+        "calendar",
+        "timeline"
+    ],
+    "basePath": "client",
+    "transpiledPath": "client/lib/transpiled",
+    "chunks": {
+        "main": {
+            "files": [
+                "src/exceptions.js",
+                "src/utils.js"
+            ],
+            "ignoreFiles": [
+                "src/namespace.js",
+                "src/loader.js"
+            ],
+            "patterns": [
+                "src/**/*.js"
+            ],
+            "ignorePatterns": [
+                "src/views/admin/**/*.js",
+                "src/views/settings/**/*.js",
+                "src/views/authentication-provider/**/*.js",
+                "src/views/webhooks/**/*.js",
+                "src/views/templates/**/*.js",
+                "src/views/layout-set/**/*.js",
+                "src/views/role/**/*.js",
+                "src/views/portal-role/**/*.js",
+                "src/views/scheduled-job/**/*.js",
+                "src/views/lead-capture-log-record/**/*.js",
+                "src/views/inbound-email/**/*.js",
+                "src/views/extension/**/*.js",
+                "src/views/api-user/**/*.js",
+
+                "src/controllers/admin.js",
+                "src/controllers/role.js",
+                "src/controllers/portal-role.js",
+
+                "src/views/outbound-email/**/*.js",
+                "src/views/personal-data/**/*.js",
+                "src/views/portal/**/*.js",
+                "src/views/import/**/*.js",
+                "src/views/import-error/**/*.js",
+                "src/views/group-email-folder/**/*.js",
+                "src/views/external-account/**/*.js",
+                "src/views/email-account/**/*.js"
+            ]
+        },
+        "admin": {
+            "patterns": [
+                "src/views/admin/**/*.js",
+                "src/views/settings/**/*.js",
+                "src/views/api-user/**/*.js",
+                "src/views/extension/**/*.js",
+                "src/views/authentication-provider/**/*.js",
+                "src/views/inbound-email/**/*.js",
+                "src/views/templates/**/*.js",
+                "src/views/role/**/*.js",
+                "src/views/portal-role/**/*.js",
+                "src/views/portal/**/*.js",
+                "src/views/scheduled-job/**/*.js",
+                "src/views/lead-capture-log-record/**/*.js",
+                "src/views/webhooks/**/*.js",
+                "src/views/layout-set/**/*.js",
+                "src/controllers/admin.js",
+                "src/controllers/inbound-email.js",
+                "src/controllers/layout-set.js",
+                "src/controllers/api-user.js",
+                "src/controllers/role.js",
+                "src/controllers/portal-role.js"
+            ]
+        },
+        "crm": {
+            "patterns": [
+                "modules/crm/src/**/*.js"
+            ],
+            "lookupPatterns": [
+                "modules/crm/src/**/*.js"
+            ],
+            "noDuplicates": true
+        },
+        "chart": {
+            "patterns": [
+                "modules/crm/src/**/*.js"
+            ],
+            "dependentOn": [
+                "flotr2",
+                "espo-funnel-chart"
+            ],
+            "requires": [
+                "flotr2",
+                "espo-funnel-chart"
+            ],
+            "lookupPatterns": [
+                "modules/crm/src/**/*.js"
+            ]
+        },
+        "calendar": {
+            "patterns": [
+                "modules/crm/src/**/*.js"
+            ],
+            "dependentOn": [
+                "fullcalendar"
+            ],
+            "requires": [
+                "fullcalendar"
+            ],
+            "lookupPatterns": [
+                "modules/crm/src/**/*.js"
+            ]
+        },
+        "timeline": {
+            "patterns": [
+                "modules/crm/src/**/*.js"
+            ],
+            "dependentOn": [
+                "vis-data",
+                "vis-timeline"
+            ],
+            "requires": [
+                "vis-data",
+                "vis-timeline"
+            ],
+            "lookupPatterns": [
+                "modules/crm/src/**/*.js"
+            ]
+        },
+        "extra": {
+            "patterns": [
+                "src/**/*.js"
+            ],
+            "ignoreFiles": [
+                "src/namespace.js",
+                "src/loader.js"
+            ],
+            "noDuplicates": true
+        }
+    },
+    "modulePaths": {
+        "crm": "modules/crm"
+    },
+    "lookupPatterns": [
+        "src/**/*.js"
+    ]
+}
